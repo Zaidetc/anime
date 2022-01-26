@@ -1,0 +1,65 @@
+body {
+    
+    background-image: url(/img/goku.jpg);
+
+   background-size:100%;
+   background-repeat: no-repeat;
+      
+
+}
+
+.container{
+   position: relative;
+   color: white;
+   border: none;
+   border-radius: 25px;
+   bottom: -40vh;
+   padding: 15px;
+   width: 85vw;
+   margin: auto;
+   background-color:#1A297A;
+         opacity: 0.93;
+
+}
+
+
+
+
+
+.container input{
+   width: 100%;
+   padding: 12px 10px;
+   margin: 2px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   border-radius: 5px;
+   font-family:'Font Awesome 5 free';
+
+}
+span{
+   font-size: 18px;
+   font-family: fantasy;
+}
+
+button{
+   display: block;
+   background-color: #0C57FF;
+   height: 5.5vh;
+   width: 75vw;
+   margin: 10px auto;
+   border-radius: 5px; 
+   color: white;
+   font-weight: bolder;
+   font-size: 20px;
+   border: none; 
+   font-family: serif;
+   
+}
+button:hover{
+   
+   background-color: #010EDF;
+}
+form a{
+   color: #06BF62;
+}
