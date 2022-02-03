@@ -37,7 +37,7 @@ body {
    font-family:'Font Awesome 5 free';
 
 }
-span{
+span,label{
    font-size: 18px;
    font-family: fantasy;
 }
@@ -45,7 +45,7 @@ span{
 button{
    display: block;
    background-color: #0C57FF;
-   height: 5.5vh;
+   height: 35px;
    width: 75vw;
    margin: 10px auto;
    border-radius: 5px; 
@@ -62,4 +62,13 @@ button:hover{
 }
 form a{
    color: #06BF62;
+}
+
+input[type=button],input[type=submit]{
+   background-color: #0B9321;
+   width: 35vw; 
+   border: none;
+}
+input[type=button]{
+   background-color: #CB0E0E;
 }
